@@ -1,7 +1,7 @@
 # WeightedSoftmaxWithLoss
 Weighted Softmax With Loss for [Caffe](https://github.com/BVLC/caffe)
 
-## How to Install
+## Installation
 
 Copy `caffe.proto` to `$YOUR_CAFFE_HOME/src/caffe/proto`.
 
@@ -11,7 +11,7 @@ Copy `weighted_softmax_loss_layer.cpp` to `$YOUR_CAFFE_HOME/src/caffe/layers`.
 
 Build Caffe.
 
-## How to Use
+## Usage
 The example of prototxt of weighted softmax loss is following:
 ~~~
 layer {
